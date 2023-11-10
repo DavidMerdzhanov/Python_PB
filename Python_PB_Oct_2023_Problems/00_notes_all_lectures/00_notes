@@ -1,0 +1,81 @@
+
+
+
+Data types:
+str -> низ, текст, стринг => "text here", 'text here again'
+int -> целочислени стойности => 13; {1, 2, 3...} + { 0 } + {-1, -2 ...}
+float -> реални числа, дробни, с плаваща... => 3.14, 2.2222, -13.0
+input() => str
+
+bool (Boolean) => { True, False}  ; NOT true, NOT false, i.e. case-Sensitive
+type(True)  => bool
+bool -> { True, False }
+
+str(13)  => "13"
+bool("13")  => True
+bool("")  => False
+
+
+bool(1337)   => True
+bool(0)      => False   # 0.0
+
+
+###
+11 / 5 = 2.2  (__truediv__)
+11 // 5 = 2  (__floordiv__)
+11 % 5 = 1   (reminder) __mod__
+10 % 2 == 0  ( четно число )
+
+
+tab => indent
+shift + tab => unindent
+
+
+###
+Ctrl + C => copy
+Ctrl + V => paste
+Ctrl + X => cut
+Ctrl + Z => undo
+
+# IDE commands
+
+Ctrl + Shift + F10  => run current file
+Ctrl + / => comment/uncomment
+Ctrl + Shift + Z => redo
+Ctrl + D => double selected line(s)
+Ctrl + Alt + L => reformat code
+
+
+if condition_1:
+    do_something_1
+elif condition_2:
+    do_something_2
+elif condition_3:
+    do_something_3
+...
+else:
+    do_action_for_other_cases
+
+###
+num += 13  # num = num + 13
+
++=
+-=		   # num = num - 13
+*= 15      # num = num * 15
+/=
+//=
+**=
+
+
+[ boolean short-circuiting?]
+when we have complex check:
+logical OR => evaluation stop at first True value
+
+logical AND => evaluation stop at first False value => False
+
+
+
+
+
+
+
